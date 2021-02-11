@@ -60,7 +60,7 @@ font-family: 'Noto Sans HK', sans-serif;
 }
 .nav-bar>ul>li>a{
   text-decoration: none;
-  color:black;
+  color:#641E16;
 }
 .header-img{
   margin-top: 50px;
@@ -80,7 +80,7 @@ font-family: 'Noto Sans HK', sans-serif;
   border:2px solid #F0F8FF;
   padding: 20px;
   font-size: 3vw;
-  color: black;
+  color: BLACK; ;
   font-family: 'Noto Sans HK', sans-serif;
 }
 .block1{
@@ -96,7 +96,7 @@ font-family: 'Noto Sans HK', sans-serif;
   font-size: 5vw;
   font-weight: normal;
   font-family: 'Montserrat', sans-serif;
-  color: #F0F8FF;
+  color: #641E16;
 }
 .block1>.text1{
   margin:auto 0;
