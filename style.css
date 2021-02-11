@@ -1,7 +1,7 @@
 body{
   top: 0;
   margin: 0;
-  font-family: "Trebuchet MS",Sans-serif;
+font-family: 'Noto Sans HK', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,18 +33,20 @@ body{
 }
 .nav-bar{
   width: 80%;
-  border: 1px solid blue;
   grid-area: nav-barr;
   display: flex;
   flex-direction: row;
 }
 .header1{
   margin: 10px;
-  border: 1px solid blue;
   width: 30%;
+  font-size: 20px;
+}
+.header1>h1>a{
+  text-decoration: none;
+  color:#384955;
 }
 .nav-bar>ul{
-  border: 1px solid blue;
   list-style: none;
   text-align:right;
   margin-top: 30px;
@@ -54,6 +56,7 @@ body{
   display: inline;
   margin:auto;
   padding: 50px;
+  font-size: 20px;
 }
 .nav-bar>ul>li>a{
   text-decoration: none;
@@ -78,6 +81,7 @@ body{
   padding: 20px;
   font-size: 3vw;
   color: black;
+  font-family: 'Noto Sans HK', sans-serif;
 }
 .block1{
   width: 80%;
