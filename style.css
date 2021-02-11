@@ -2,13 +2,13 @@ body{
   top: 0;
   margin: 0;
   font-family: "Trebuchet MS",Sans-serif;
-  background-color: #f5f6fa
+  background-color: #283747;
 }
 .container{
   margin: auto;
   width: 80%;
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 12vh 90vh 15vh 100vh 15vh 100vh 15vh 100vh 35vh 75vh;
   grid-template-areas:
   "nav-barr nav-barr"
@@ -49,7 +49,6 @@ body{
   grid-area: nav-barr;
   display: flex;
   flex-direction: row;
-  height: 100%;
 }
 .header1{
   margin: 10px;
@@ -89,10 +88,12 @@ body{
   color: black;
 }
 .block1-text{
+  background-color: #F3FCFF;
   grid-area: block1-text;
   margin: auto 0;
 }
 .block1-img{
+  background-color: #F3FCFF;
   grid-area: block1-img;
   margin: auto 0;
 }
@@ -106,27 +107,37 @@ body{
   height: 100%;
 }
 .block2-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-area: block2-text;
-  margin: auto 0;
+  padding: 25px;
 }
 .block2-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-area: block2-img;
-  margin: auto 0;
 }
 .block2-img>img{
-  width:100%;
+  width: 100%;
 }
 .block2-text>p{
-  padding: 45px;
-  font-size: 1.4vw;
+  text-align: left;
+  font-size: 5vw;
   font-family: 'Cormorant', serif;
-  height: 100%;
 }
 .block3-text{
+  background-color: #F3FCFF;
   grid-area: block3-text;
   margin: auto 0;
+
+  text-align: justify;
 }
 .block3-img{
+  background-color: #F3FCFF;
   grid-area: block3-img;
   margin: auto 0;
 }
