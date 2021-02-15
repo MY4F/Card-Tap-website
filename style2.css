@@ -64,29 +64,131 @@ body{
 .nav-bar>ul>li:hover{
   background-color: #f2c136
 }
-.nav-click{
+.nav-button{
   display: none;
 }
 
 @media screen and (max-width: 600px) {
-  .container{
-      border:1px solid white;
-  }
+
   .nav-bar{
-    border:1px solid white;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+  }
+  .header1{
+    width:96.5%;
   }
   .nav-bar>ul{
     display: none;
   }
   .header1>h1>a{
-    border:1px solid white;
     width: 10%;
   }
-  .nav-click{
-    
+  .nav-button{
+    display: inline;
+    font-size: 17px;
+    margin: auto;
+    cursor: pointer;
+  }
+  .card-holder{
+    border-radius: 5px;
+    margin: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .card-holder>img{
+    margin: auto ;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius:5px;
+  }
+  .second-part-name>h3{
+    margin: 10px;s
+  }
+  .second-part-name>span{
+    margin: 10px;
+    opacity: 0.7;
+    color: #fd612f;
+  }
+  .card-holder-button{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #fd612f;
+    width: 79%;
+    transition: 1s;
+    padding: 10px;
+  }
+  .bio{
+    border-radius: 5px;
+    width: 74%;
+    padding: 10px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  .h-space{
+    margin: 10px;
+    width:90%;
+    border: 0.00001px solid black;
+    opacity: 0.2
+  }
+  .client-social-links{
+    width: 80%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .client-social-links>a{
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+  }
+  .client-other-links{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .email{
+    width: 120%;
+    margin: 10px;
+  }
+  .website{
+    width: 100%;
+    margin: 10px;
+  }
+  .location{
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px;
+  }
+  .location>i{
+
+  }
+  .email>a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+  }
+  .website>a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+  }
+  .location>a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
   }
 }
 
