@@ -26,7 +26,6 @@ body{
 }
 .nav-bar{
   width: 80%;
-  grid-area: nav-barr;
   display: flex;
   flex-direction: row;
 }
@@ -67,6 +66,97 @@ body{
 .nav-button{
   display: none;
 }
+.desktop-container{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 1fr 100px 1fr;
+  grid-gap: 15px;
+  grid-template-areas:
+  "card bio"
+  "card sclinks"
+  "card otlinks";
+}
+.card-holder{
+  background-color: black;
+  color: white;
+  grid-area: card;
+}
+.card-holder>img{
+  width: 100%;
+}
+.second-part-name>h3{
+  margin: 10px;
+}
+.second-part-name>span{
+  margin: 10px;
+  opacity: 0.7;
+  color: #fd612f;
+}
+.h-space{
+  display: none;
+}
+.card-holder-button{
+  display: none;
+}
+.bio{
+  margin: auto;
+  padding: 20px;
+  grid-area: bio;
+}
+.client-social-links{
+  grid-area: sclinks;
+  margin: auto;
+}
+.client-social-links>a{
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+}
+.client-other-links{
+  grid-area: otlinks;
+}
+.img-mobile-ver{
+  display: none;
+}
+.client-other-links{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.email{
+  width: 120%;
+  margin: 10px;
+}
+.email>a{
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.website{
+  width: 100%;
+  margin: 10px;
+}
+.website>a{
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.location{
+  width: 100%;
+  margin: 10px;
+}
+.location>a{
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
 
 @media screen and (max-width: 750px) {
   body{
@@ -80,7 +170,6 @@ body{
     background-color: #F0F8FF ;
     color:black;
   }
-
   .nav-bar{
     display: flex;
     flex-direction: row;
@@ -117,9 +206,10 @@ body{
     margin: auto ;
     border-bottom-left-radius: 5px;
     border-top-left-radius:5px;
+    width: 62%;
   }
   .second-part-name>h3{
-    margin: 10px;s
+    margin: 10px;
   }
   .second-part-name>span{
     margin: 10px;
@@ -127,11 +217,13 @@ body{
     color: #fd612f;
   }
   .card-holder-button{
+    display: block;
     border-radius: 5px;
     margin-bottom: 10px;
     text-align: center;
     text-decoration: none;
     color: white;
+    margin: auto;
     background-color: #fd612f;
     width: 79%;
     transition: 1s;
@@ -203,6 +295,12 @@ body{
     margin-left: 5px;
     text-decoration: none;
     color: black;
+  }
+  .img-desktop-ver{
+    display: none;
+  }
+  .img-mobile-ver{
+    display: block;
   }
 }
 
