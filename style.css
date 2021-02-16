@@ -120,7 +120,7 @@ body{
   font-size: 3vw;
   font-weight: normal;
   font-family: 'Montserrat', sans-serif;
-  color: black;
+  color: #f2c136;
 }
 .block1>.text1{
   margin:auto 0;
@@ -229,31 +229,33 @@ footer{
   .block1{
     width: 100%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 50px;
   }
   .block1>h3{
-    width:100%;
+    width: 100%;
     text-align: center;
-    font-size: 3vw;
+    font-size: 8vw;
     font-weight: normal;
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: #f2c136;
   }
   .block1>.text1{
+    width: 100%;
     margin:auto 0;
-    font-size: 1.6vw;
-    width:50%;
+    font-size: 20px;;
+    width:100%;
   }
   .block1>.text1>p{
-    padding: 34px;
+    padding: 20x;
   }
   .block1>.img1{
     margin:auto 0;
     width: 50%;
   }
   .block1>.img1>img{
-    width: 100%;
+    max-width: 100%;
   }
 }
