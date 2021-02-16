@@ -87,19 +87,7 @@ body{
 .nav-bar>ul>li:hover{
   background-color: #f2c136;
 }
-.header-img{
-  width: 100%;
-  height:580px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url("test4.png");
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position: center;
-  background-attachment: fixed;
-}
+
 .header-img>h3{
   border:2px solid #F0F8FF;
   padding: 20px;
