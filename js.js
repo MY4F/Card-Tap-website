@@ -37,9 +37,7 @@ listItems[2].addEventListener('click',()=>{
     list.style.display='';
   }
 });
-console.log(desktopContainer.innerHTML);
 window.addEventListener('resize',()=>{
-  console.log(window.innerWidth);
   if(window.innerWidth<751){
     desktopContainer.classList.remove("desktop-container");
 
