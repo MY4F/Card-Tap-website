@@ -52,6 +52,9 @@ body{
   display: flex;
   flex-direction: row;
 }
+.nav-button{
+  display: none;
+}
 .header1{
   width: 30%;
   font-size: 15px;
@@ -61,8 +64,6 @@ body{
   text-decoration: none;
   color:white;
   font-size: 30px;
-}
-.header1>h1{
 }
 .nav-bar>ul{
   list-style: none;
@@ -168,4 +169,22 @@ footer{
   color: white;
   margin: 40px;
   text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  .nav-bar>ul{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-button{
+    display: inline;
+    font-size: 17px;
+    margin: auto;
+    cursor: pointer;
+  }
+  .header1{
+    width: 96.5%;
+  }
 }

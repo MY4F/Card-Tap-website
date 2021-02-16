@@ -90,6 +90,9 @@ body{
   }
   .nav-bar>ul{
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .header1>h1>a{
     width: 10%;
