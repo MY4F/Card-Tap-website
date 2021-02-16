@@ -48,3 +48,9 @@ window.addEventListener('resize',()=>{
     desktopContainer.classList.add("desktop-container");
   }
 });
+if(window.innerWidth<751){
+  desktopContainer.classList.remove("desktop-container");
+}
+else {
+    desktopContainer.classList.add("desktop-container");
+}
