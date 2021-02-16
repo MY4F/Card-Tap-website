@@ -205,8 +205,5 @@ footer{
     justify-content: center;
     align-items: center;
     background-image: url("test4.png");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
   }
 }
