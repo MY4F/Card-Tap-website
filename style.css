@@ -172,6 +172,17 @@ footer{
 }
 
 @media screen and (max-width: 750px) {
+  body{
+    top: 0;
+    margin: 0;
+    font-family: 'Noto Sans HK', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F8FF ;
+    color:black;
+  }
   .nav-bar>ul{
     display: none;
     flex-direction: column;
@@ -186,5 +197,16 @@ footer{
   }
   .header1{
     width: 96.5%;
+  }
+  .header-img{
+    height:580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("test4.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
   }
 }
