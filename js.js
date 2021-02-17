@@ -4,7 +4,7 @@ const listItems= document.querySelectorAll('li');
 const desktopContainer=document.querySelector('.desktop-container');
 const bodyy=document.querySelector('body');
 navButtton.addEventListener('click',()=>{
-  if(list.style.display==='none'|| list.style.display===''){
+  if(list.style.display==='none' && window.innerWidth<751|| list.style.display==='' && window.innerWidth<751){
     list.style.display='flex';
   }
   else{
@@ -12,7 +12,7 @@ navButtton.addEventListener('click',()=>{
   }
 });
 listItems[0].addEventListener('click',()=>{
-  if(list.style.display==='none'|| list.style.display===''){
+  if(list.style.display==='none' && window.innerWidth<751|| list.style.display==='' && window.innerWidth<751){
     list.style.display='flex';
   }
   else{
@@ -21,7 +21,7 @@ listItems[0].addEventListener('click',()=>{
 });
 
 listItems[1].addEventListener('click',()=>{
-  if(list.style.display==='none'|| list.style.display===''){
+  if(list.style.display==='none' && window.innerWidth<751|| list.style.display==='' && window.innerWidth<751){
     list.style.display='flex';
   }
   else{
@@ -30,7 +30,7 @@ listItems[1].addEventListener('click',()=>{
 });
 
 listItems[2].addEventListener('click',()=>{
-  if(list.style.display==='none'|| list.style.display===''){
+  if(list.style.display==='none' && window.innerWidth<751|| list.style.display==='' && window.innerWidth<751){
     list.style.display='flex';
   }
   else{
