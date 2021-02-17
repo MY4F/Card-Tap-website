@@ -247,10 +247,10 @@ body{
     margin-bottom: 10px;
   }
   .h-space{
-    margin: 10px;
-    width:90%;
+    display: flex;
+    margin: 20px;
     border: 0.00001px solid black;
-    opacity: 0.2
+    opacity: 0.2;
   }
   .client-social-links{
     width: 80%;
@@ -262,7 +262,7 @@ body{
     flex-wrap: wrap;
   }
   .client-social-links>a{
-    margin: 30px;
+    margin:23px;
     text-decoration: none;
     color: black;
     font-size: 40px;
@@ -272,6 +272,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 10px;
     margin-bottom: 10px;
     font-size: 20px;
   }
