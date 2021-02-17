@@ -70,7 +70,6 @@ body{
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: 1fr 100px 1fr;
-  grid-gap: 15px;
   grid-template-areas:
   "card bio"
   "card sclinks"
@@ -108,7 +107,7 @@ body{
   margin: auto;
 }
 .client-social-links>a{
-  margin: 30px;
+  margin: 20px;
   text-decoration: none;
   color: black;
   font-size: 40px;
@@ -123,11 +122,12 @@ body{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-left: 20px;
   margin-bottom: 10px;
   font-size: 20px;
 }
 .email{
-  width: 120%;
+  width: 100%;
   margin: 10px;
 }
 .email>a{
