@@ -216,6 +216,12 @@ body{
     border-top-left-radius:5px;
     width: 63%;
   }
+  .second-part-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .second-part-name>h3{
     margin: 10px;
   }
@@ -225,8 +231,10 @@ body{
     font-size: 2.8vw;
   }
   .mohamed-malatawy>span{
-    width: 100%;
     font-size: 2.1vw;
+  }
+  .mohamed-malatawy{
+    text-align: right;
   }
   .card-holder-button{
     display: block;
