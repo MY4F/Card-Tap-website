@@ -214,7 +214,7 @@ body{
     margin: auto ;
     border-bottom-left-radius: 5px;
     border-top-left-radius:5px;
-    width: 62%;
+    width: 63%;
   }
   .second-part-name>h3{
     margin: 10px;
@@ -223,6 +223,10 @@ body{
     margin: 10px;
     color: #fd612f;
     font-size: 2.8vw;
+  }
+  .mohamed-malatawy>span{
+    width: 100%;
+    font-size: 2.1vw;
   }
   .card-holder-button{
     display: block;
@@ -311,6 +315,7 @@ body{
   .img-mobile-ver{
     display: block;
   }
+
 }
 
 
