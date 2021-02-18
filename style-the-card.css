@@ -87,6 +87,7 @@ body{
   align-items: center;
   background-color: black;
   color: white;
+  font-size: 30px;
 }
 .spacer-bot{
   margin-top: -5px;
