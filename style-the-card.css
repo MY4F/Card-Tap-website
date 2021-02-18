@@ -19,6 +19,11 @@ body{
   justify-content: center;
   align-items: center;
 }
+.horizontal-space{
+  border: 0.02px solid white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 .nav-bar{
   width: 80%;
   grid-area: nav-barr;
@@ -171,6 +176,17 @@ footer{
 .header-img-mobile{
   display: none;
 }
+.ul-text>ul{
+  list-style: none;
+  list-style-image: url('check.png');
+}
+.ul-text{
+  font-size: 25px;
+  margin: auto 0;
+}
+.img1-mobile{
+  display: none;
+}
 
 
 @media screen and (max-width: 750px) {
@@ -211,5 +227,65 @@ footer{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+  }
+  .block1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  }
+  .block1>h3{
+    width: 100%;
+    text-align: center;
+    font-size: 10vw;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #f2c136;
+  }
+  .block1>.text1{
+    width: 100%;
+    margin:auto 0;
+    font-size: 20px;;
+    width:100%;
+  }
+  .block1>.text1>p{
+    padding: 20x;
+  }
+  .block1>.img1{
+    margin:auto 0;
+    width: 50%;
+  }
+  .block1>.img1>img{
+    max-width: 100%;
+  }
+  .img2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img2>img{
+    width: 50%;
+  }
+  .ul-text>ul{
+    list-style: none;
+    text-align: center;
+  }
+  .img1-desktop{
+    display: none;
+  }
+  .img1-mobile{
+    display: block;
+  }
+  .ul-text>ul{
+    list-style: none;
+    text-align: center;
+    list-style-image: url('check.png');
+  }
+  .ul-text{
+    font-size: 25px;
+    margin:auto;
   }
 }
