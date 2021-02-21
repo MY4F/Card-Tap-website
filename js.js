@@ -52,8 +52,3 @@ if(window.innerWidth<751){
 else {
     desktopContainer.classList.add("desktop-container");
 }
-
-
-{691.600
-461.062
-}

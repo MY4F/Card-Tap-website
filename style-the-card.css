@@ -18,6 +18,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: top 0.5s;
 }
 .horizontal-space{
   border: 0.02px solid white;
