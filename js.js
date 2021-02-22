@@ -6,6 +6,9 @@ const bodyy=document.querySelector('body');
 navButtton.addEventListener('click',()=>{
   if(list.style.display==='none' && window.innerWidth<751|| list.style.display==='' && window.innerWidth<751){
     list.style.display='flex';
+    setTimeout(()=>{
+      document.querySelector('.container').style.top = "0px";
+    },1);
   }
   else{
     list.style.display='';
