@@ -1,4 +1,4 @@
-html {
+html{
   scroll-behavior: smooth;
 }
 body{
@@ -231,7 +231,7 @@ footer{
     background-color: #F0F8FF ;
     color:black;
   }
-  html {
+  html{
     scroll-behavior: smooth;
   }
   .nav-bar>ul{

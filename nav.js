@@ -1,6 +1,6 @@
-
-
 let prevScrollpos = window.pageYOffset;
+
+
 window.onscroll = function() {
   let currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
@@ -9,7 +9,7 @@ window.onscroll = function() {
     document.querySelector('.container').style.top = "-300px";
   }
   else{
-    document.querySelector('.container').style.top = "-100px";
+    document.querySelector('.container').style.top = "-150px";
   }
   prevScrollpos = currentScrollPos;
 }
