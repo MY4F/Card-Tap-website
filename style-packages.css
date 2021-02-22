@@ -231,6 +231,9 @@ footer{
     background-color: #F0F8FF ;
     color:black;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   .nav-bar>ul{
     display: none;
     flex-direction: column;
