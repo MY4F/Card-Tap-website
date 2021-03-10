@@ -122,7 +122,6 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 .firstHalf>h5{
   font-size: 30px;
@@ -138,6 +137,8 @@ body{
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+  border-bottom-right-radius:24px;
+  border-bottom-left-radius:24px;
 }
 textarea{
   width: 55%;
