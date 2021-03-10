@@ -438,6 +438,7 @@ input[type=email]{
     border-radius: 25px;
   }
   .package-info{
+      text-align: center;
     margin: 20px;
     width: 100%;
     font-size: 20px;
