@@ -359,7 +359,8 @@ footer{
     display: block;
     margin-left: 40px;
     width: 80%;
-    margin-bottom: 60px;
+    margin-bottom: 150px;
+    margin-top: 80px;
   }
   .about-img-mob>img{
     width: 100%;
