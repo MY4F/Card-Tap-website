@@ -214,6 +214,8 @@ footer{
   margin: 40px;
   text-align: center;
 }
+
+
 .popup-purchase{
   display: flex;
   flex-direction: column;
@@ -252,6 +254,8 @@ footer{
   align-items: center;
   flex-wrap: wrap;
   width: 60%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 textarea{
   width: 55%;
@@ -294,6 +298,8 @@ button{
   cursor: pointer;
   transition: 1s;
   font-size: 20px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 button:after{
   border: none;
