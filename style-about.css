@@ -166,20 +166,7 @@ label{
   outline: none;
   border: none;
 }
-.button-holder{
-  margin: 25px;
-  margin-top: 0px;
-  background-color:  #000000;
-  text-align: center;
-  width: 100%;
-  border-bottom-right-radius:22px;
-  border-bottom-left-radius:22px;
-  font-size: 25px;
-  cursor: pointer;
-  color: white;
-  transition: 1s;
-}
-.button-holder:hover{
+.button-holder:hover,button:hover{
   background-color:  #71eec8;
 }
 .about-img{
@@ -202,8 +189,22 @@ input[type=email]{
   border-bottom: 2px solid #f2c136;
 }
 button{
+  background-color:black;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
   text-decoration: none;
-  outline: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition:  1s;
+  border-bottom-right-radius:22px;
+  border-bottom-left-radius:22px;
+  font-size: 20px;
+}
+button:after{
   border: none;
 }
 
