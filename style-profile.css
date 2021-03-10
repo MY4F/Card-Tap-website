@@ -4,7 +4,7 @@ html{
 body{
   top: 0;
   margin: 0;
-  font-family: 'Noto Sans HK', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -176,7 +176,7 @@ body{
   body{
     top: 0;
     margin: 0;
-    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -229,6 +229,7 @@ body{
     align-items: center;
   }
   .second-part-name>h3{
+    font-size: 15px;
     margin: 10px;
   }
   .second-part-name>span{
@@ -256,6 +257,7 @@ body{
     padding: 10px;
   }
   .bio{
+    text-align: center;
     border-radius: 5px;
     width: 74%;
     padding: 10px;
@@ -278,10 +280,10 @@ body{
     flex-wrap: wrap;
   }
   .client-social-links>a{
-    margin:23px;
+    margin:20px;
     text-decoration: none;
     color: black;
-    font-size: 40px;
+    font-size: 35px;
   }
   .client-other-links{
     width: 90%;
@@ -290,7 +292,7 @@ body{
     flex-wrap: wrap;
     margin-left: 10px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 16px;
   }
   .email{
     width: 120%;
@@ -359,6 +361,7 @@ footer{
   text-align: center;
 }
 .other-links{
+  font-size: 14px;
   width:100%;
   text-align: center;
 }

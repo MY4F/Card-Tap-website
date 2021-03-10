@@ -4,7 +4,7 @@ html{
 body{
   top: 0;
   margin: 0;
-  font-family: 'Noto Sans HK', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,7 +78,7 @@ body{
 .nav-bar>ul>li{
   display: inline;
   font-size: 20px;
-  padding-bottom: 23px;
+  padding-bottom: 19.5px;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 29.5px;
@@ -108,8 +108,7 @@ body{
   border:2px solid #F0F8FF;
   padding: 20px;
   font-size: 3vw;
-  color: BLACK; ;
-  font-family: 'Noto Sans HK', sans-serif;
+  color: BLACK;
   cursor: pointer;
   transition: 1s;
 }
@@ -159,6 +158,7 @@ footer{
   text-align: center;
 }
 .other-links{
+  font-size: 14px;
   width:100%;
   text-align: center;
 }
@@ -190,7 +190,7 @@ footer{
   body{
     top: 0;
     margin: 0;
-    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -231,9 +231,8 @@ footer{
   .header-img-mobile>h3{
     border:2px solid #F0F8FF;
     padding: 20px;
-    font-size: 4.2vw;
-    color: BLACK; ;
-    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 3.5vw;
+    color: BLACK;
     cursor: pointer;
     transition: 1s;
   }
@@ -253,12 +252,12 @@ footer{
     text-align: center;
     font-size: 10vw;
     font-weight: normal;
-    font-family: 'Montserrat', sans-serif;
     color: #f2c136;
   }
   .block1>.text1{
     width: 100%;
     margin:auto 0;
+    text-align: center;
     font-size: 20px;;
     width:100%;
   }

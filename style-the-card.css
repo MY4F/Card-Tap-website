@@ -4,7 +4,7 @@ html{
 body{
   top: 0;
   margin: 0;
-  font-family: 'Noto Sans HK', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -160,6 +160,7 @@ footer{
 .other-links{
   width:100%;
   text-align: center;
+  font-size: 14px;
 }
 .social-links>a{
   padding: 15px;
@@ -201,7 +202,7 @@ footer{
   body{
     top: 0;
     margin: 0;
-    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
