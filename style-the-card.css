@@ -224,6 +224,9 @@ footer{
   .header1{
     width: 96.5%;
   }
+  .spacer>p{
+    font-size: 20px;
+  }
   .header-img-desktop{
     display: none;
   }
