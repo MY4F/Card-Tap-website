@@ -9,7 +9,7 @@ closeSpan.addEventListener('click',()=>{
   popupPurchase.style.display = "none";
 })
 window.onclick = function(event) {
-  if (event.target == purchaseBut[0]) {
+  if (event.target == popupPurchase) {
     popupPurchase.style.display = "none";
   }
 }
