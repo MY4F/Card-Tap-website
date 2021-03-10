@@ -7,6 +7,18 @@ purchaseBut[0].addEventListener('click',()=>{
   popupPurchase.style.display='block';
   requestedText.value="Individuals";
 })
+purchaseBut[1].addEventListener('click',()=>{
+  popupPurchase.style.display='block';
+  requestedText.value="Teams";
+})
+purchaseBut[2].addEventListener('click',()=>{
+  popupPurchase.style.display='block';
+  requestedText.value="Business";
+})
+purchaseBut[3].addEventListener('click',()=>{
+  popupPurchase.style.display='block';
+  requestedText.value="Custom";
+})
 closeSpan.addEventListener('click',()=>{
   popupPurchase.style.display = "none";
 })
