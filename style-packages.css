@@ -160,7 +160,7 @@ body{
   font-weight: bolder;
 }
 .package-request{
-  width: 96%;
+  width: 100%;
   text-decoration: none;
   background-color: #1cd777;
   color:white;
@@ -436,7 +436,7 @@ input[type=email]{
     font-weight: bolder;
   }
   .package-request{
-    width: 86%;
+    width: 92%;
     text-decoration: none;
     background-color: #1cd777;
     color:white;
