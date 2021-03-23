@@ -136,6 +136,7 @@ body{
   width:50%;
 }
 .block1>.text1>p{
+  line-height: 1.4;
   padding: 34px;
 }
 .block1>.img1{
