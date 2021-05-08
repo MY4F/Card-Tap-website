@@ -137,15 +137,22 @@ body{
 .img-con{
   margin: 15px;
   text-align: center;
-  width: 25%;
+  width: 20%;
 }
 .img-con2{
   margin: 15px;
   padding: 15px;
   text-align: center;
-  width: 25%;
+  width: 20%;
   border-left: 0.1px solid black;
   border-right: 0.1px solid black;
+}
+.img-con1{
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+  width: 20%;
+  border-left: 0.1px solid black;
 }
 .img2{
   width:100%;
@@ -330,7 +337,14 @@ footer{
     text-align: center;
     width: 100%;
   }
-
+  .img-con1{
+    font-size: 15px;
+    width: 70%;
+    text-align: center;
+    border-right: white;
+    border-left: white;
+    border-top: 0.1px solid black;
+  }
   .img-con2{
     font-size: 15px;
     width: 70%;
