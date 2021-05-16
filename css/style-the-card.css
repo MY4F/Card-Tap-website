@@ -328,6 +328,14 @@ footer{
   .block1>.img1>img{
     max-width: 100%;
   }
+  .ul-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+  }
   .img2{
     display: flex;
     flex-direction: column;
@@ -336,10 +344,6 @@ footer{
   }
   .img2>img{
     width: 50%;
-  }
-  .ul-text>ul{
-    list-style: none;
-    text-align: center;
   }
   .img1-desktop{
     display: none;
