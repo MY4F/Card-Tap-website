@@ -18,29 +18,45 @@ body{
   top: 0;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
   transition: top 0.5s;
 }
-.horizontal-space{
-  border: 0.02px solid white;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-.nav-bar{
-  width: 80%;
-  grid-area: nav-barr;
+.sign{
+  width: 30%;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sign>ul{
+  list-style: none;
+  text-align:right;
+}
+.sign>ul>li{
+  display: inline;
+  font-size: 1.2vw;
+  padding-bottom: 27px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 33px;
+  transition: 1s;
+}
+.sign>ul>li>a{
+  text-decoration: none;
+  color:white;
+}
+.sign>ul>li:hover{
+  background-color: #f2c136;
+}
+.nav-bar{
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .nav-button{
   display: none;
-}
-.header1{
-  width: 30%;
-  font-size: 15px;
-  color: white
 }
 .header1>h1>a{
   text-decoration: none;
@@ -49,17 +65,14 @@ body{
 }
 .nav-bar>ul{
   list-style: none;
-  text-align:right;
-  margin-top: 30px;
-  width: 90%;
 }
-.nav-bar>ul>li{
+.nav-bar>ul>.li-desktop{
   display: inline;
-  font-size: 20px;
-  padding-bottom: 19.5px;
+  font-size: 1.2vw;
+  padding-bottom: 27px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 29.5px;
+  padding-top: 33px;
   transition: 1s;
 }
 .nav-bar>ul>li>a{
@@ -69,6 +82,15 @@ body{
 .nav-bar>ul>li:hover{
   background-color: #f2c136;
 }
+.hide{
+  display: none;
+}
+
+
+
+
+
+
 .our-logo{
   margin-top: 130px;
   text-align: center;
@@ -367,6 +389,32 @@ footer{
     width: 100%;
   }
   .about-img-desktop{
+    display: none;
+  }
+
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.nav-bar{
+    width: 90%;
+  }
+.nav-bar>ul>.li-desktop{
+    font-size: 20px;
+  }
+  .hide{
+    display: inline;
+    font-size: 20px;
+    padding-bottom: 27px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 33px;
+    transition: 1s;
+  }
+  .sign{
     display: none;
   }
 }

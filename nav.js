@@ -6,7 +6,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.querySelector('.container').style.top = "0";
   } else if(list.style.display==='flex'  && window.innerWidth<751){
-    document.querySelector('.container').style.top = "-300px";
+    document.querySelector('.container').style.top = "-800px";
   }
   else{
     document.querySelector('.container').style.top = "-150px";

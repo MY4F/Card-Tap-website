@@ -20,43 +20,64 @@ body{
 .container{
   position: sticky;
   background-color: black;
-  transition: top 0.5s;
+  top: 0;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  transition: top 0.5s;
+}
+.sign{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+.sign>ul{
+  list-style: none;
+  text-align:right;
+}
+.sign>ul>li{
+  display: inline;
+  font-size: 1.2vw;
+  padding-bottom: 27px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 33px;
+  transition: 1s;
+}
+.sign>ul>li>a{
+  text-decoration: none;
+  color:white;
+}
+.sign>ul>li:hover{
+  background-color: #f2c136;
+}
 .nav-bar{
-  width: 80%;
+  width: 65%;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.header1{
-  width: 30%;
-  font-size: 15px;
-  color: white
+.nav-button{
+  display: none;
 }
 .header1>h1>a{
   text-decoration: none;
   color:white;
   font-size: 30px;
 }
-.header1>h1{
-}
 .nav-bar>ul{
   list-style: none;
-  text-align:right;
-  margin-top: 30px;
-  width: 90%;
 }
-.nav-bar>ul>li{
+.nav-bar>ul>.li-desktop{
   display: inline;
-  font-size: 20px;
-  padding-bottom: 19.5px;
+  font-size: 1.2vw;
+  padding-bottom: 27px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 29.5px;
+  padding-top: 33px;
   transition: 1s;
 }
 .nav-bar>ul>li>a{
@@ -64,11 +85,14 @@ body{
   color:white;
 }
 .nav-bar>ul>li:hover{
-  background-color: #f2c136
+  background-color: #f2c136;
 }
-.nav-button{
+.hide{
   display: none;
 }
+
+
+
 .desktop-container{
   display: grid;
   grid-template-columns: 30% 70%;
@@ -331,6 +355,30 @@ body{
   .img-mobile-ver{
     display: block;
   }
+  .container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+.nav-bar{
+   width: 90%;
+ }
+.nav-bar>ul>.li-desktop{
+   font-size: 20px;
+ }
+ .hide{
+   display: inline;
+   font-size: 20px;
+   padding-bottom: 27px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 33px;
+   transition: 1s;
+ }
+ .sign{
+   display: none;
+ }
 
 }
 
