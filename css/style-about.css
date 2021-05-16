@@ -12,6 +12,11 @@ body{
   background-color: #F0F8FF ;
   color:black;
 }
+.horizontal-space{
+  border: 0.02px solid white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 .container{
   position: sticky;
   background-color: black;
